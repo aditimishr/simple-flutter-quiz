@@ -23,7 +23,7 @@ jobs:
           channel: stable
           flutter-version: '3.19.x'
       - run: dart --version
-      - run: flutter--version
+      - run: flutter --version
 
       - name: Install dependencies
         run: flutter pub get
