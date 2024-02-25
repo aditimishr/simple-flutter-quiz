@@ -3,19 +3,13 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: quiz-app1
+name: quiz-app
 
 on:
   push:
-    paths:
-      - '**.dart'
-      - 'pubspec.yaml'
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-    paths:
-      - '**.dart'
-      - 'pubspec.yaml'
 
 jobs:
   build:
@@ -24,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install flutter
-        uses: subosito/flutter-action@v1
+        uses: subosito/flutter-action@v2
         with:
           channel: stable
           flutter-version: '3.19.x'
