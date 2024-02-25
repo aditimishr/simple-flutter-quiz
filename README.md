@@ -1,6 +1,6 @@
 # simple_flutter_quiz
 
-A new Flutter project.
+This is a simple quiz application in Flutter to learn the basics of Flutter and dart.
 
 ## Getting Started
 
