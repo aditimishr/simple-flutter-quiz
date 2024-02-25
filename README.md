@@ -16,5 +16,7 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 ## Running the project
-If you find any errors while running this application, run
+If you find any errors while running this application, run on terminal -
+```console
 $ flutter doctor
+```
